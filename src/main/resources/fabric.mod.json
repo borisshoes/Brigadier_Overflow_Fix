@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "brigadier-overflow-fix",
+  "version": "${version}",
+  "name": "Brigadier Overflow Fix",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/Boris/Brigadier Overflow Fix"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/brigadier-overflow-fix/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "net.borisshoes.brigadieroverflowfix.BrigadierOverflowFix"
+    ]
+  },
+  "mixins": [
+    "brigadier-overflow-fix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": ">=${minecraft_version}"
+  }
+}
